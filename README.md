@@ -77,7 +77,7 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 
 ## Quick note on IP Geolocation:
 
-If you elect the Free tier option, you’re limited to 30,000 requests per month or 1000 a day. Though it may sound like a lot, it isn’t.
+If you elect the **Free tier** option, you’re limited to **30,000** requests per month or **1000** a day. Though it may sound like a lot, it isn’t.
 
 However, if you want to get the complete experience, I would recommend subscribing to the **Bronze tier** for this lab. This tier will ensure every one of our requests gets parsed and displayed on our map without any limitations.
 
