@@ -101,7 +101,7 @@ You can take advantage of your subscription and go through the lab a couple of t
 
 ## When we're finished …
 
-- Make sure to remove all your resources associated with this lab to avoid going over your free credits.
+- Be sure to remove **all** your resources associated with this lab to avoid going over your free credits.
 
 <p align="center">
 <img src="https://imgur.com/MupdGU8.png" height="85%" width="85%" alt="Delete RG"/>
@@ -113,7 +113,7 @@ You can take advantage of your subscription and go through the lab a couple of t
 <img src="https://imgur.com/xHwjixr.png" height="85%" width="85%" alt="Notification"/>
 </p>
 
-- You will get a confirmation on your Notifications tab once it’s done.
+- You will get a confirmation on your Notifications tab once completed.
 
 <p align="center">
 <img src="https://imgur.com/sCA6WCu.png" height="85%" width="85%" alt="Notification"/>
