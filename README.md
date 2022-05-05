@@ -46,7 +46,7 @@ Microsoft Sentinel helps you enable end-to-end security operations including col
 Here’s a brief description of our implementation’s components.
 
 <p align="center">
-<img src="https://imgur.com/RVUq7cw.png" height="85%" width="85%" alt="Project overview"/>
+<img src="https://imgur.com/RVUq7cw.png" height="75%" width="75%" alt="Project overview"/>
 </p>
 
 - First, we’ll create an Azure (free) subscription which will give you 200 USD worth of credits.
@@ -68,11 +68,11 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 - We’ll use PowerShell to extract the IP addresses from our Windows logs and send it to a third party API ([ipgeolocation](https://ipgeolocation.io/)) to determine their latitude, longitude, state, country, etc. and then send it back to our VM where we’ll use these details to create a custom log.
 
 <p align="center">
-<img src="https://imgur.com/X6NC5Lz.png" height="85%" width="85%" alt="PS"/>
+<img src="https://imgur.com/X6NC5Lz.png" height="75%" width="75%" alt="PS"/>
 </p>
 
 <p align="center">
-<img src="https://imgur.com/Xv0fDbu.png" height="85%" width="85%" alt="ipgeolocation"/>
+<img src="https://imgur.com/Xv0fDbu.png" height="75%" width="75%" alt="ipgeolocation"/>
 </p>
 
 ## Quick note on ipgeolocation:
