@@ -58,7 +58,7 @@ Here’s a brief description of our implementation’s components.
 A honeypot is a security mechanism that creates a virtual trap to lure attackers. An intentionally compromised computer system allows attackers to exploit vulnerabilities so you can study them to improve your security policies. You can apply a honeypot to any computing resource from software and networks to file servers and routers.
 
 <p align="center">
-<img src="https://imgur.com/tLG4VcT.png" height="85%" width="85%" alt="Honeypot"/>
+<img src="https://imgur.com/tLG4VcT.png" height="75%" width="75%" alt="Honeypot"/>
 </p>
 
 [Source](https://www.imperva.com/learn/application-security/honeypot-honeynet/)
