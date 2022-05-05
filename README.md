@@ -100,13 +100,13 @@ You can take advantage of your subscription and go through the lab a couple of t
 - We’ll then setup Microsoft Sentinel where we’ll create a workbook to visualize the attackers’ geo-data and display it “live” on our map.
 
 <p align="center">
-<img src="https://imgur.com/H61gHB9.png" height="85%" width="85%" alt="Map"/>
+<img src="https://imgur.com/H61gHB9.png" height="90%" width="90%" alt="Map"/>
 </p>
 
 - You can let it run for days and observe the activity on your VM/honeypot - as long as you keep an eye on your Azure credits, you should be fine.
 
 <p align="center">
-<img src="https://imgur.com/bmGziLy.png" height="85%" width="85%" alt="Map"/>
+<img src="https://imgur.com/bmGziLy.png" height="90%" width="90%" alt="Map"/>
 </p>
 
 <br>
