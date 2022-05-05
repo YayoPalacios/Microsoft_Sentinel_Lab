@@ -1,6 +1,6 @@
 # Lab - Microsoft Sentinel (SIEM) - Map with live cyberattacks
 
-> This article was inspired by Josh Madakor’s [video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=2722s) where he goes through setting up a SIEM in Azure with Microsoft Sentinel.
+> This project was inspired by Josh Madakor’s [video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=2722s) where he goes through setting up a SIEM in Azure with Microsoft Sentinel.
 > 
 
 ## **What is security information and event management (SIEM)?**
