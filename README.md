@@ -3,6 +3,8 @@
 > This project was inspired by Josh Madakor’s [video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=2722s) where he goes through setting up a SIEM in Azure with Microsoft Sentinel.
 > 
 
+<br>
+
 ## **What is security information and event management (SIEM)?**
 
 A SIEM system is a tool that an organization uses to collect, analyze, and perform security operations on its computer systems. Those systems can be hardware appliances, applications, or both.
@@ -20,6 +22,8 @@ A SIEM system might offer functionality such as:
 - **Visualization**: Graphs and dashboards that provide visual insights into your log data.
 - **Incident management:** The ability to create, update, assign, and investigate incidents that have been identified.
 - **Querying data**: A rich query language, similar to that for log management, that you can use to filter and understand your data.
+
+<br>
 
 ## **What is Microsoft Sentinel?**
 
@@ -41,6 +45,8 @@ Microsoft Sentinel helps you enable end-to-end security operations. Including co
 
 [Source: Microsoft Docs](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-sentinel/2-what-is-azure-sentinel)
 
+<br>
+
 ## Project overview:
 
 Here’s a brief description of our implementation’s components.
@@ -52,6 +58,8 @@ Here’s a brief description of our implementation’s components.
 - First, we’ll create an Azure (free) subscription that will give you 200 USD worth of credits.
 
 - We’ll set up a vulnerable VM in Azure which will essentially function as our “honeypot” by disabling our internal and external firewall rules.
+
+<br>
 
 ## What is a Honeypot?
 
@@ -74,6 +82,8 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 <p align="center">
 <img src="https://imgur.com/Xv0fDbu.png" height="75%" width="75%" alt="ipgeolocation"/>
 </p>
+
+<br>
 
 ## Quick note on IP Geolocation:
 
@@ -98,6 +108,8 @@ You can take advantage of your subscription and go through the lab a couple of t
 <p align="center">
 <img src="https://imgur.com/bmGziLy.png" height="85%" width="85%" alt="Map"/>
 </p>
+
+<br>
 
 ## When we're finished …
 
