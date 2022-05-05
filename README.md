@@ -36,7 +36,7 @@ Microsoft Sentinel is tightly integrated with other cloud services. Not only can
 Microsoft Sentinel helps you enable end-to-end security operations including collection, detection, investigation, and response:
 
 <p align="center">
-<img src="https://imgur.com/a/wiS8DUR" height="85%" width="85%" alt="MS Sentinel"/>
+<img src="https://imgur.com/Xa3VNpR.png" height="85%" width="85%" alt="MS Sentinel"/>
 </p>
 
 [Source: Microsoft Docs](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-sentinel/2-what-is-azure-sentinel)
@@ -45,7 +45,9 @@ Microsoft Sentinel helps you enable end-to-end security operations including col
 
 Here’s a brief description of our implementation’s components.
 
-![Azure Sentinel (SIEM).png](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Azure_Sentinel_(SIEM).png)
+<p align="center">
+<img src="https://imgur.com/RVUq7cw.png" height="85%" width="85%" alt="Project overview"/>
+</p>
 
 - First, we’ll create an Azure (free) subscription which will give you 200 USD worth of credits.
 
@@ -55,7 +57,9 @@ Here’s a brief description of our implementation’s components.
 
 A honeypot is a security mechanism that creates a virtual trap to lure attackers. An intentionally compromised computer system allows attackers to exploit vulnerabilities so you can study them to improve your security policies. You can apply a honeypot to any computing resource from software and networks to file servers and routers.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%201.png)
+<p align="center">
+<img src="https://imgur.com/tLG4VcT.png" height="85%" width="85%" alt="Honeypot"/>
+</p>
 
 [Source](https://www.imperva.com/learn/application-security/honeypot-honeynet/)
 
@@ -63,9 +67,13 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 
 - We’ll use PowerShell to extract the IP addresses from our Windows logs and send it to a third party API ([ipgeolocation](https://ipgeolocation.io/)) to determine their latitude, longitude, state, country, etc. and then send it back to our VM where we’ll use these details to create a custom log.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%202.png)
+<p align="center">
+<img src="https://imgur.com/X6NC5Lz.png" height="85%" width="85%" alt="PS"/>
+</p>
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%203.png)
+<p align="center">
+<img src="https://imgur.com/Xv0fDbu.png" height="85%" width="85%" alt="ipgeolocation"/>
+</p>
 
 ## Quick note on ipgeolocation:
 
@@ -75,26 +83,38 @@ Now, if you want to get the full experience, I’d recommend subscribing to the 
 
 You can take advantage of your subscription and go through the lab a couple of times to really familiarize yourself with what’s going on behind the scenes.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%204.png)
+<p align="center">
+<img src="https://imgur.com/uiGGmW6.png" height="40%" width="40%" alt="Bronze tier"/>
+</p>
 
 - We’ll then setup Microsoft Sentinel where we’ll create a workbook to visualize the attackers’ geo-data and display it “live” on our map.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%205.png)
+<p align="center">
+<img src="https://imgur.com/H61gHB9.png" height="85%" width="85%" alt="Map"/>
+</p>
 
 - You can let it run for days and observe the activity on your VM/honeypot, as long as you keep an eye on your Azure credits, you should be fine.
 
-![Progress6.png](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Progress6.png)
+<p align="center">
+<img src="https://imgur.com/bmGziLy.png" height="85%" width="85%" alt="Map"/>
+</p>
 
 ## Now, when we’re done …
 
 - Make sure to get rid of all your resources associated to this lab to avoid going over your free credits.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%206.png)
+<p align="center">
+<img src="https://imgur.com/MupdGU8.png" height="85%" width="85%" alt="Delete RG"/>
+</p>
 
 - To do this, we can always use the portal: click on **All Resources** or **Resource Groups** and start selecting and deleting the resources, bear in mind this will take a few minutes to complete.
 
-![Untitled.png](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%207.png)
+<p align="center">
+<img src="https://imgur.com/xHwjixr.png" height="85%" width="85%" alt="Notification"/>
+</p>
 
 - You’ll get a confirmation on your Notifications tab once it’s done.
 
-![Untitled](Lab%20-%20Microsoft%20Sentinel%20(SIEM)%20-%20Map%20with%20live%20cy%20a06ed32bcba0468989787a04b4233c5e/Untitled%208.png)
+<p align="center">
+<img src="https://imgur.com/sCA6WCu.png" height="85%" width="85%" alt="Notification"/>
+</p>
