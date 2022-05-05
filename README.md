@@ -113,7 +113,7 @@ You can take advantage of your subscription and go through the lab a couple of t
 <img src="https://imgur.com/xHwjixr.png" height="85%" width="85%" alt="Notification"/>
 </p>
 
-- You’ll get a confirmation on your Notifications tab once it’s done.
+- You will get a confirmation on your Notifications tab once it’s done.
 
 <p align="center">
 <img src="https://imgur.com/sCA6WCu.png" height="85%" width="85%" alt="Notification"/>
