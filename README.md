@@ -58,7 +58,6 @@ Here’s a brief description of our implementation’s components.
 - First, we’ll create an Azure (free) subscription that will give you 200 USD worth of credits.
 
 - We’ll set up a vulnerable VM in Azure which will essentially function as our “honeypot” by disabling our internal and external firewall rules.
-
 <br>
 
 ## What is a Honeypot?
@@ -74,6 +73,8 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 - Next, we’ll create a log repository in Log Analytics Workspaces used to ingest our logs from the VM.
 
 - We’ll use PowerShell to extract the IP addresses from our Windows logs and send them to a third-party API ([IP Geolocation](https://ipgeolocation.io/)) to determine their latitude, longitude, state, country, etc., and then send it back to our VM where we’ll use these details to create a custom log.
+
+### [PowerShell Script](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
 
 <p align="center">
 <img src="https://imgur.com/X6NC5Lz.png" height="75%" width="75%" alt="PS"/>
