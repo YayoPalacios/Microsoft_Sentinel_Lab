@@ -76,6 +76,7 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 
 ### [PowerShell Script ←](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
 
+<br>
 <p align="center">
 <img src="https://imgur.com/X6NC5Lz.png" height="75%" width="75%" alt="PS"/>
 </p>
