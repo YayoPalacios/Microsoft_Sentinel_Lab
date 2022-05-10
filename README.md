@@ -124,11 +124,11 @@ You can take advantage of your subscription and go through the lab a couple of t
 - Using the portal. we can click on **All Resources** or **Resource Groups** and start selecting and deleting the resources. Bear in mind this will take a few minutes to complete.
 
 <p align="center">
-<img src="https://imgur.com/xHwjixr.png" height="85%" width="85%" alt="Notification"/>
+<img src="https://imgur.com/xHwjixr.png" height="75%" width="75%" alt="Notification"/>
 </p>
 
 - You will get a confirmation on your Notifications tab once completed.
 
 <p align="center">
-<img src="https://imgur.com/sCA6WCu.png" height="85%" width="85%" alt="Notification"/>
+<img src="https://imgur.com/sCA6WCu.png" height="75%" width="75%" alt="Notification"/>
 </p>
