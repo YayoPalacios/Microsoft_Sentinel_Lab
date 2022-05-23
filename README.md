@@ -132,3 +132,13 @@ You can take advantage of your subscription and go through the lab a couple of t
 <p align="center">
 <img src="https://imgur.com/sCA6WCu.png" height="75%" width="75%" alt="Notification"/>
 </p>
+
+<br>
+
+## Further learning:
+To learn more about these concepts, you can check out the following articles:
+
+- [https://docs.microsoft.com/en-us/azure/sentinel/](https://docs.microsoft.com/en-us/azure/sentinel/)
+- [https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace)
+- [https://www.div0.sg/post/beginners-tale-honeypots](https://www.div0.sg/post/beginners-tale-honeypots)
+- [https://www.varonis.com/blog/what-is-siem](https://www.varonis.com/blog/what-is-siem)
