@@ -74,7 +74,7 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 
 - We’ll use PowerShell to extract the IP addresses from our Windows logs and send them to a third-party API ([IP Geolocation](https://ipgeolocation.io/)) to determine their latitude, longitude, state, country, etc., and then send it back to our VM where we’ll use these details to create a custom log.
 
-### [Original PowerShell Script ←](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
+### [PowerShell Script by /joshmadakor1 ←](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
 
 <br>
 
