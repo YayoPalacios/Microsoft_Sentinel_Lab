@@ -3,8 +3,6 @@
 > This project was inspired by Josh Madakor’s [video](https://www.youtube.com/watch?v=RoZeVbbZ0o0&t=2722s) where he goes through setting up a SIEM in Azure with Microsoft Sentinel.
 > 
 
-<br>
-
 ## [Here's my YouTube video ←](https://www.youtube.com/watch?v=lFmOtSKN6Jk)
 
 <a href="https://www.youtube.com/watch?v=lFmOtSKN6Jk"><img src="https://imgur.com/mcMgofS.jpg" height="70%" width="70%"></a>
