@@ -57,9 +57,14 @@ Here’s a brief description of our implementation’s components.
 <img src="https://imgur.com/RVUq7cw.png" height="75%" width="75%" alt="Project overview"/>
 </p>
 
+<br>
+
 - First, we’ll create an Azure (free) subscription that will give you 200 USD worth of credits.
 
+<br>
+
 - We’ll set up a vulnerable VM in Azure which will essentially function as our “honeypot” by disabling our internal and external firewall rules.
+
 <br>
 
 ## What is a Honeypot?
@@ -72,13 +77,17 @@ A honeypot is a security mechanism that creates a virtual trap to lure attacker
 
 [Source](https://www.imperva.com/learn/application-security/honeypot-honeynet/)
 
+<br>
+
 - Next, we’ll create a log repository in Log Analytics Workspaces used to ingest our logs from the VM.
+
+<br>
 
 - We’ll use PowerShell to extract the IP addresses from our Windows logs and send them to a third-party API ([IP Geolocation](https://ipgeolocation.io/)) to determine their latitude, longitude, state, country, etc., and then send it back to our VM where we’ll use these details to create a custom log.
 
-### [PowerShell Script by /joshmadakor1 ←](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
-
 <br>
+
+### [PowerShell Script by /joshmadakor1 ←](https://github.com/YayoPalacios/Sentinel-Lab/blob/main/Custom_Security_Log_Exporter.ps1)
 
 ```powershell
 # Get API key from here: https://ipgeolocation.io/
@@ -223,9 +232,12 @@ while ($true)
 ```
 
 <br>
+
 <p align="center">
 <img src="https://imgur.com/X6NC5Lz.png" height="75%" width="75%" alt="PS"/>
 </p>
+
+<br>
 
 <p align="center">
 <img src="https://imgur.com/Xv0fDbu.png" height="75%" width="75%" alt="ipgeolocation"/>
@@ -241,17 +253,27 @@ However, if you want to get the complete experience, I would recommend subscribi
 
 You can take advantage of your subscription and go through the lab a couple of times to familiarize yourself with what’s going on behind the scenes.
 
+<br>
+
 <p align="center">
 <img src="https://imgur.com/uiGGmW6.png" height="30%" width="30%" alt="Bronze tier"/>
 </p>
 
+<br>
+
 - We’ll then setup Microsoft Sentinel where we’ll create a workbook to visualize the attackers’ geo-data and display it “live” on our map.
+
+<br>
 
 <p align="center">
 <img src="https://imgur.com/H61gHB9.png" height="95%" width="95%" alt="Map"/>
 </p>
 
+<br>
+
 - You can let it run for days and observe the activity on your VM/honeypot - as long as you keep an eye on your Azure credits, you should be fine.
+
+<br>
 
 <p align="center">
 <img src="https://imgur.com/bmGziLy.png" height="95%" width="95%" alt="Map"/>
@@ -263,17 +285,27 @@ You can take advantage of your subscription and go through the lab a couple of t
 
 - Be sure to remove **all** your resources associated with this lab to avoid going over your free credits.
 
+<br>
+
 <p align="center">
 <img src="https://imgur.com/MupdGU8.png" height="85%" width="85%" alt="Delete RG"/>
 </p>
 
+<br>
+
 - Using the portal. we can click on **All Resources** or **Resource Groups** and start selecting and deleting the resources. Bear in mind this will take a few minutes to complete.
+
+<br>
 
 <p align="center">
 <img src="https://imgur.com/xHwjixr.png" height="75%" width="75%" alt="Notification"/>
 </p>
 
+<br>
+
 - You will get a confirmation on your Notifications tab once completed.
+
+<br>
 
 <p align="center">
 <img src="https://imgur.com/sCA6WCu.png" height="75%" width="75%" alt="Notification"/>
